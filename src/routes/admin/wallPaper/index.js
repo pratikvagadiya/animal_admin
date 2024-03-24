@@ -38,7 +38,7 @@ function Map() {
     ]
 
     useEffect(() => {
-        fetchData();
+         fetchData();
         if (history.location.pathname === "/2dwallpaper") {
             setWallPaper('2D')
         } else {
