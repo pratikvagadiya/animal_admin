@@ -4,11 +4,6 @@ import InboxOutlined from "@ant-design/icons/lib/icons/InboxOutlined";
 import { UploadOutlined } from "@ant-design/icons";
 var AWS = require('aws-sdk');
 
-const config = {
-  region: 'us-east-1',
-  accessKeyId: 'AKIAUXMFOC3NQRSDPXMJ',
-  secretAccessKey: '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',
-}
 AWS.config.update(config);
 
 const Dragger = Upload.Dragger;
