@@ -4,7 +4,7 @@ import InboxOutlined from "@ant-design/icons/lib/icons/InboxOutlined";
 import { UploadOutlined } from "@ant-design/icons";
 var AWS = require('aws-sdk');
 
-AWS.config.update(config);
+AWS.config.update(config);  
 
 const Dragger = Upload.Dragger;
 var s3 = new AWS.S3();
