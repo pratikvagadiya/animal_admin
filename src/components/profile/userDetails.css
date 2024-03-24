@@ -1,0 +1,20 @@
+.header-button-content {
+    display: inline-block;
+    contain: content;
+  }
+
+  .ant-form-horizontal .ant-row {
+    margin-left: -15px;
+    margin-right: 0px;
+}
+.ant-upload-list-item-card-actions{
+  right: -27px;
+}
+
+.ant-radio-group{
+  display: flex;
+}
+
+textarea.ant-input{
+  width: 500px;
+}
