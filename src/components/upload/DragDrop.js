@@ -7,6 +7,7 @@ var AWS = require('aws-sdk');
 AWS.config.update(config);  
 
 const Dragger = Upload.Dragger;
+
 var s3 = new AWS.S3();
 
 const DragDrop = (props) => {
